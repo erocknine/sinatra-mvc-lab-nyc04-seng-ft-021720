@@ -1,11 +1,11 @@
 class PigLatinizer
   
   def initialize(phrase)
-    
+    phrase.split(" ")
   end
   
-  def start
-    @phrase.split(" ")
+  def piglatinize
+    
   end
   
   
