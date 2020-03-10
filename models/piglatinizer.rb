@@ -4,6 +4,9 @@ class PigLatinizer
     @phrase = phrase
   end
   
+  def start
+    @phrase.split
+  end
   
   
 end
