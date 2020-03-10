@@ -5,7 +5,7 @@ class PigLatinizer
   end
   
   def start
-    @phrase.split
+    @phrase.split(" ")
   end
   
   
